@@ -1,10 +1,10 @@
-# Haste
+# hastebin
 
 Sharing code is a good thing, and it should be _really_ easy to do it.
 A lot of times, I want to show you something I'm seeing - and that's where we
 use pastebins.
 
-Haste is the prettiest, easiest to use pastebin ever made.
+hastebin is the prettiest, easiest to use pastebin ever made.
 
 ## Basic Usage
 
@@ -49,7 +49,7 @@ pastes.
 
 ## Open Source
 
-Haste can easily be installed behind your network, and its all open source!
+Dmptr Paste is based on haste-server. Haste can easily be installed behind your network, and its all open source!
 
 * [haste-client](https://github.com/seejohnrun/haste-client)
 * [haste-server](https://github.com/seejohnrun/haste-server)
