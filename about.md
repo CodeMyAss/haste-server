@@ -49,7 +49,7 @@ pastes.
 
 ## Open Source
 
-Dmptr Paste is based on haste-server. Haste can easily be installed behind your network, and its all open source!
+hastebin is based on haste-server. Haste can easily be installed behind your network, and its all open source!
 
 * [haste-client](https://github.com/seejohnrun/haste-client)
 * [haste-server](https://github.com/seejohnrun/haste-server)
