@@ -24,6 +24,7 @@ STDOUT.  Check the README there for more details and usages.
 
 * Firefox 8
 * Chrome 17
+* Chrome 21 Beta
 * Safari 5.3
 
 ## Installation
