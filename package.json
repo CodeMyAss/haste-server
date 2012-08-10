@@ -1,52 +1,50 @@
 {
 
-	"name": "haste",
-	"version": "0.0.1",
+    "name": "haste",
+    "version": "0.0.1",
 
-	"private": true,
+    "private": true,
 
-	"description": "Private Pastebin Server",
+    "description": "Private Pastebin Server",
 
-	"keywords": [ "paste", "pastebin" ],
+    "keywords": [ "paste", "pastebin" ],
 
-	"author": {
-		"name": "John Crepezzi",
-		"email": "john.crepezzi@gmail.com",
-		"url": "http://seejohncode.com/"
-	},
+    "author": {
+        "name": "John Crepezzi",
+        "email": "john.crepezzi@gmail.com",
+        "url": "http://seejohncode.com/"
+    },
 
-	"main": "haste",
+    "main": "haste",
 
-	"dependencies": {
-		"winston": "*",
-    "connect": "< 2",
-    "uglify-js": "*"
-	},
+    "dependencies": {
+        "winston": "*",
+        "connect": "< 2",
+        "uglify-js": "*"
+    },
 
-	"devDependencies": {
-    "mocha": "*",
-    "should": "*"
-  },
+    "devDependencies": {
+        "mocha": "*",
+        "should": "*"
+    },
 
-	"bundledDependencies": [],
+    "engines": {
+        "node": "*"
+    },
 
-	"engines": {
-		"node": "*"
-	},
+    "bin": {
+        "haste-server": "./server.js"
+    },
 
-	"bin": {
-		"haste-server": "./server.js"
-	},
+    "files": [ "server.js", "lib", "static" ],
 
-	"files": [ "server.js", "lib", "static" ],
+    "directories": {
+    	"lib": "./lib"
+    },
 
-	"directories": {
-		"lib": "./lib"
-	},
-
-	"scripts": {
-		"start": "node server.js",
-    "test": "mocha -r should spec/*"
-	}
+    "scripts": {
+    	"start": "node server.js",
+        "test": "mocha -r should spec/*"
+    }
 
 }
