@@ -47,7 +47,7 @@ textarea {
 
 #box code {
 	padding: 0px;
-	background: transparent !important; /* don't hide hastebox */
+	/* background: transparent !important; */ // removed, as it is not needed, and breaks on some browsers
 }
 
 /* key */
